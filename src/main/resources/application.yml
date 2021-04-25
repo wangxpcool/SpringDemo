@@ -1,0 +1,12 @@
+
+spring:
+  security:
+    user:
+      password: 123456
+  datasource:
+    username: admin
+    password: '!12345678A'
+    url: jdbc:mysql://192.168.138.128:3306/me?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: mapper/*.xml
